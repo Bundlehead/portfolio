@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Videographer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <style>html { scroll-behavior: smooth; }</style>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('.popup-video').magnificPopup({
+      type: 'iframe',
+      iframe: {
+        patterns: {
+          youtube: {
+            index: 'youtube.com/', // could also be youtu.be
+            id: function (url) {
+              var match = url.match(/[\\?\\&]v=([^\\?\\&]+)/);
+              return match && match[1] ? match[1] : null;
+            },
+            src: 'https://www.youtube.com/embed/%id%?autoplay=1&rel=0&showinfo=0'
+          }
+        }
+      }
+    });
+  });
+</script>
+
+</head>
+<body>
+ <nav class="navbar">
+  <div class="navbar-container">
+    <a href="#home" class="logo">
+      <img src="avatar.png" alt="Logo" />
+    </a>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#works">Works</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <main class="portfolio">
+    <header class="header">Videographer Portfolio</header>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+      <h2 class="section-title">About</h2>
+      <p class="section-text">
+        I’m a videographer and motion designer specializing in music-related visuals — from lyric videos to live footage editing. With a cinematic approach and a focus on storytelling, I create visuals that amplify the music.
+      </p>
+    </section>
+
+    <!-- WORKS SECTION -->
+    <section id="works" class="section section-light">
+  <div class="section-container">
+    <h2 class="section-title">Works</h2>
+	<p class="section-text" style="color : white;" >
+        I’m a videographer and motion designer specializing in music-related visuals — from lyric videos to live footage editing. With a cinematic approach and a focus on storytelling, I create visuals that amplify the music.
+      </p>
+    <div class="works-grid">
+		<div class="work-card">
+        <h3 class="work-title">Shitpiece - Be Kind</h3>
+        <a href="https://www.youtube.com/watch?v=R3V-sm5q7eY" class="popup-video">
+          <img class="yt" src="https://img.youtube.com/vi/R3V-sm5q7eY/hqdefault.jpg" />
+        </a>
+		</div>
+      <div class="work-card">
+        <h3 class="work-title">Misanthropia - Malediction and Laughter</h3>
+        <a href="https://www.youtube.com/watch?v=3nxFFK-sB8Q" class="popup-video">
+          <img class="yt" src="https://img.youtube.com/vi/3nxFFK-sB8Q/hqdefault.jpg"  />
+        </a>
+      </div>
+      <div class="work-card">
+        <h3 class="work-title">Misanthropia - Prosperity By Cocaïne</h3>
+        <a href="https://www.youtube.com/watch?v=aZFoyxKlL90" class="popup-video">
+          <img class="yt" src="https://img.youtube.com/vi/aZFoyxKlL90/hqdefault.jpg" alt="Misanthropia -  Prosperity By Cocaïne" />
+        </a>
+      </div>
+      <div class="work-card">
+        <h3 class="work-title">Plague of Stars - Vain</h3>
+        <a href="https://www.youtube.com/watch?v=XmOV1prY2_Y" class="popup-video">
+          <img class="yt" src="https://img.youtube.com/vi/XmOV1prY2_Y/hqdefault.jpg" alt="Plague of Stars - Vain" />
+        </a>
+      </div>
+      <div class="work-card">
+        <h3 class="work-title">Lamashtu - Res Dig</h3>
+        <a href="https://www.youtube.com/watch?v=KSmRQ12eIho" class="popup-video">
+		  <img class="yt" src="https://img.youtube.com/vi/KSmRQ12eIho/hqdefault.jpg" alt="Plague of Stars - Vain" />
+		  </a>
+      </div>
+	  <div class="work-card">
+        <h3 class="work-title">Flush - We are not yet alright</h3>
+        <a href="https://www.youtube.com/watch?v=T4I9XjZPsE0" class="popup-video">
+		  <img class="yt" src="https://img.youtube.com/vi/T4I9XjZPsE0/hqdefault.jpg" alt="Plague of Stars - Vain" />
+		  </a>
+      </div>
+	  <div class="work-card">
+        <h3 class="work-title">Weapons of Pride - Awaken</h3>
+        <a href="https://www.youtube.com/watch?v=a5rWCp7cNyI" class="popup-video">
+		  <img class="yt" src="https://img.youtube.com/vi/a5rWCp7cNyI/hqdefault.jpg" alt="Plague of Stars - Vain" />
+		  </a>
+      </div>
+	  <div class="work-card">
+        <h3 class="work-title">Final Seige - Primordial Combat</h3>
+        <a href="https://www.youtube.com/watch?v=60yhQwNT5V8" class="popup-video">
+		  <img class="yt" src="https://img.youtube.com/vi/60yhQwNT5V8/hqdefault.jpg" alt="Plague of Stars - Vain" />
+		  </a>
+      </div>
+	  <div class="work-card">
+        <h3 class="work-title">Venus Bleue - Latente Liquification</h3>
+        <a href="https://www.youtube.com/watch?v=-FhiddoUsKg" class="popup-video">
+		  <img class="yt" src="https://i.ytimg.com/vi/-FhiddoUsKg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDJ1FW4Fz2k-6SY1yFCWiPuno9YNA" alt="Plague of Stars - Vain" />
+		  </a>
+      </div>
+	  <div class="work-card">
+        <h3 class="work-title">Cypher - A Marker's Clone</h3>
+        <a href="https://www.youtube.com/watch?v=54rePwQ0JQs" class="popup-video">
+		  <img class="yt" src="https://img.youtube.com/vi/54rePwQ0JQs/hqdefault.jpg" alt="Plague of Stars - Vain" />
+		  </a>
+      </div>
+	  <div class="work-card">
+        <h3 class="work-title">Past Glories - The Fear I Inherited</h3>
+        <a href="https://www.youtube.com/watch?v=KRNyBxCSbLY" class="popup-video">
+		  <img class="yt" src="https://img.youtube.com/vi/KRNyBxCSbLY/hqdefault.jpg" alt="Plague of Stars - Vain" />
+		  </a>
+      </div>
+	  
+    </div>
+  </div>
+	</section>
+    <!-- FAQ SECTION -->
+    <section id="faq" class="section">
+      <h2 class="section-title">FAQ</h2>
+      
+	  <h3>Q: What type of Videos do you create? </h3>
+	  <p class="section-text">
+        I specialize in lyric videos, visualizers, and music video edits.
+      </p>
+	  <h3><bold>Q: What is your turn around time?</bold> </h3>
+	  <p class="section-text">
+        It depends on the scope of the projects. Lyrics Video with album art usually takes around 7 -10 days depending on feedback and changes. Sometimes it might extend to 2 Weeks, then again depending on the scope of project 
+      </p>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section section-dark">
+  <div class="section-container contact-container">
+    <div class="contact-left">
+      <h2 class="section-title">Contact</h2>
+      <form action="https://formsubmit.co/your@email.com" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="text" name="band" placeholder="Band Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <p class="contact-right" style="padding : 50px;">
+	<br>
+	<br>
+        Want to create something epic for your band? Whether it's a lyric video, visualizer, or a full motion graphics project, I’d love to hear your ideas.Let’s bring your music to life visually. Drop me a message and I’ll get back to you soon. Follow me on social media or you could email me at <bold>bundlehead.art@gmail.com</bold>
+      </p>
+    
+  </div>
+</section>
+
+
+    <footer class="footer">© 2025 Bundlehead Visuals. All rights reserved.</footer>
+  </main>
+
+  <!-- Modal for YouTube popup -->
+  <div id="video-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:black; justify-content:center; align-items:center; z-index:9999;">
+    <iframe id="video-frame" width="80%" height="80%" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <script>
+    $('.faq-question').click(function() {
+      $(this).next('.faq-answer').slideToggle();
+      $('.faq-answer').not($(this).next()).slideUp();
+    });
+
+    $('.work-thumbnail').click(function() {
+      const videoId = $(this).data('video-id');
+      $('#video-frame').attr('src', 'https://www.youtube.com/embed/' + videoId + '?autoplay=1');
+      $('#video-modal').fadeIn();
+    });
+
+    $('#video-modal').click(function() {
+      $(this).fadeOut();
+      $('#video-frame').attr('src', '');
+    });
+  </script>
+</body>
+</html>
