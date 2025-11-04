@@ -93,7 +93,7 @@ body {
   padding: 0.05rem;
   border-radius: 0.5rem;
 }
-..download-link a {
+.download-link a {
   color: #ccc;
   text-decoration: none;
   font-family: 'Oswald', sans-serif;
